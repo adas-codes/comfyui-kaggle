@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# ComfyUI runtime
+ComfyUI/
+comfyui/
+models/
+custom_nodes/
+
+# Large AI assets
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Generated media
+outputs/
+input/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mov
+
+# Kaggle
+.kaggle/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
