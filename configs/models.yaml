@@ -1,0 +1,13 @@
+checkpoint:
+  name: realvisxl_v40.safetensors
+
+character_lora:
+  name: my_influencer_face.safetensors
+  strength_model: 0.75
+  strength_clip: 0.75
+
+controlnet:
+  name: openpose_sdxl.safetensors
+
+face_detector:
+  name: face_yolov8m.pt
